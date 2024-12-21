@@ -70,11 +70,6 @@ root.attributes('-fullscreen', True)
 style = ttk.Style()
 style.configure("Rounded.TButton", font=("arial"),foreground='green',background='black', padding=(10, 5))
 
-#background
-background_image = tk.PhotoImage(file="background.png")
-background_label = tk.Label(root, image=background_image)
-background_label.place(x=0, y=0, relwidth=1, relheight=1)
-
 #inputs
 up = ttk.Entry(root, width=40, justify="center", style="Rounded.TButton")
 low = ttk.Entry(root, width=40, justify="center", style="Rounded.TButton")
